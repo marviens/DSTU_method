@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face 
+{
+    font-family: 'Comfortaa'; 
+    src: url(fonts/Comfortaa.ttf)
+}
+
+@font-face 
+{
+    font-family: 'Monsterrat_Bold'; 
+    src: url(fonts/Montserrat_Bold.ttf)
+}
+
+@font-face 
+{
+    font-family: 'Comfortaa_Bold'; 
+    src: url(fonts/Comfortaa_Bold.ttf)
+}
+
+@font-face 
+{
+    font-family: 'Cinzel_Bold'; 
+    src: url(fonts/Cinzel_Bold.ttf)
+}
+
+@font-face 
+{
+    font-family: 'Manrope'; 
+    src: url(fonts/Manrope.ttf)
+}
+
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.mmmeee {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Comfortaa';
+    height: 70px;
+    
+}
+.fa {
+    float: right;
+}
+
+.fa a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 29px 34px;
+    text-decoration: none;
+}
+
+.fa a:hover {
+    background-color: #c04444;
+}
+
+.menuu
+{
+    width: 695px;
+    height: 70px;
+    background-color: #BB2929;
+    float: right;
+}
+
+.ggg
+{
+    position: absolute;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+
+input[type=text] {
+    padding: 12px 34px;
+    margin-left: 0 ;
+    color: #bb292954;
+    border:2px solid #bb292993;
+    border-radius: 65px;
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 13px;
+}
+
+.food
+{
+    color: #BB2929;
+    position: absolute;
+    font-family: 'Comfortaa_Bold';
+    margin-left: 110px;
+    margin-top: 27px;
+    font-size: 24px;
+}
+
+.line {
+    position: absolute;
+    background-color: #d85454a6;
+    width: 540px;
+    height: 1.5px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.line2 {
+    position: absolute;
+    background-color: #d85454a6;
+    width: 1230px;
+    height: 1.5px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 95px;
+}
+
+.dost
+{
+    font-family: 'Comfortaa';
+    position: absolute;
+    margin-left: 52px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.zag
+{
+    font-family: 'Manrope';
+    margin-left: 52px;
+    margin-top: 150px;
+    font-size: 63px;
+}
+
+
+.latte
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    margin-top: 85px;
+    border-radius: 30px;
+}
+
+.shaurma
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 352px;
+    margin-top: 85px;
+    border-radius: 30px;
+}
+.applej
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 652px;
+    margin-top: 85px;
+    border-radius: 30px;
+}
+.freek
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 952px;
+    margin-top: 85px;
+    border-radius: 30px;
+}
+
+.latte1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 300px;
+    padding-left: 60px;
+}
+
+.shaurma1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 300px;
+    padding-left: 360px;
+}
+
+.applej1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 300px;
+    padding-left: 660px;
+}
+
+.freek1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 300px;
+    padding-left: 960px;
+}
+
+.latte2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 330px;
+    padding-left: 60px;
+}
+
+.shaurma2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 330px;
+    padding-left: 360px;
+}
+
+.applej2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 330px;
+    padding-left: 660px;
+}
+.freek2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 330px;
+    padding-left: 960px;
+}
+.zag2
+{
+    position: absolute;
+    font-family: 'Manrope';
+    margin-left: 52px;
+    margin-top: 540px;
+    font-size: 63px;
+}
+
+.pyaterochka
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    margin-top: 680px;
+    border-radius: 30px;
+}
+.magnit
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 352px;
+    margin-top: 680px;
+    border-radius: 30px;
+}
+.azbuka
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 652px;
+    margin-top: 680px;
+    border-radius: 30px;
+}
+.perekrestok
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 952px;
+    margin-top: 680px;
+    border-radius: 30px;
+}
+
+.pyaterochka1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 900px;
+    padding-left: 60px;
+}
+
+.magnit1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 900px;
+    padding-left: 360px;
+}
+.azbuka1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 900px;
+    padding-left: 660px;
+}
+.perekrestok1
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    color: Black;
+    padding-top: 900px;
+    padding-left: 960px;
+}
+
+.pyaterochka2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 930px;
+    padding-left: 60px;
+}
+
+.magnit2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 930px;
+    padding-left: 360px;
+}
+
+.azbuka2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 930px;
+    padding-left: 660px;
+}
+
+.perekrestok2
+{
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.464);
+    padding-top: 930px;
+    padding-left: 960px;
+}
+
+.floor
+{
+    background-color: #BB2929;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 1200px;
+}
+
+.floor1
+{
+    background-color: #BB2929;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+}
+.floor3
+{
+    background-color: #BB2929;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.floor4
+{
+    background-color: #BB2929;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+.fffood
+{
+    position: absolute;
+    font-family: 'Comfortaa_Bold';
+    margin-top: 90px;
+    margin-left: 250px;
+    font-size: 34px;
+}
+
+.fffood1
+{
+    position: absolute;
+    font-family: 'Comfortaa_Bold';
+    margin-top: 45px;
+    margin-left: 750px;
+    font-size: 24px;
+}
+
+.ggg1
+{
+    position: absolute;
+    height: 150px;
+    margin-left: 29px;
+    margin-top: 40px;
+}
+
+.vk, .k1, .tg, .wt
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.par, .par1, .par2, .par3
+{
+    font-family: 'Comfortaa';
+    display: inline;
+    position: absolute;
+    margin-top: 125px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.line21 {
+    position: absolute;
+    background-color: #b61717a6;
+    width: 1230px;
+    height: 1.5px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 1145px;
+}
+
+.i1, .i2, .i3, .i4
+{
+    height: 100px;
+    width: 2px;
+    display: inline;
+    position: absolute;
+    margin-top: 85px;
+    background-color: #b61717;
+    margin-left: 390px;
+}
+
+.pt1, .pt2, .pt3, .pt4
+{
+    display: inline;
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 400px;
+    font-family: 'Comfortaa';
+    font-size: 29px;
+
+}
+
+.asor
+{
+    margin-left: 50px;
+    margin-top: 39px;
+    font-size: 24px;
+    font-family: 'Comfortaa';
+}
+
+.aaabout
+{
+    font-family: 'Comfortaa';
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.card
+{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.xc
+{
+    font-size: 34px;
+}
+.sweet, .salt, .ostroe, .napitki
+{
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    position: absolute;
+}
+
+.sweet
+{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.salt
+{
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.ostroe
+{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.napitki
+{
+    margin-left: 800px;
+    margin-top: 150px;
+}
+
+.poss
+{
+    margin-top: 500px;
+}
+
+.i11
+{
+    height: 850px;
+    width: 2px;
+    display: inline;
+    position: absolute;
+    margin-top: 85px;
+    background-color: #b61717;
+    margin-left: 590px;
+
+}
+.floor5
+{
+    background-color: #BB2929;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 600px;
+} 
+.contact_form h2, .contact_form label {font-family: 'Comfortaa';}
+.font_hint, .required_notification {font-size: 11px;}
+.contact_form ul {
+    width: 750px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_form li{
+    padding: 12px; 
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.contact_form li:first-child, .contact_form li:last-child
+{
+    border-bottom: 1px solid #777;
+}
+
+.contact_form h2
+{
+    margin: 0;
+    display: inline;
+}
+
+
+.contact_form label{
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 3px;
+}
+
+.contact_form input 
+{
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+}
+
+.contact_form textarea{
+    padding: 8px;
+    width: 300px;
+}
+
+.contact_form button
+{
+    margin-left: 156px;
+}
+
+.contact_form input, .contact_form textarea 
+{
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+
+button.submit
+{
+    background-color: #b12f2f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b12f2f), to(#911e1e));
+    background: -webkit-linear-gradient(top, #b12f2f, #911e1e);
+    background: -moz-linear-gradient(top, #b12f2f, #911e1e);
+    background: -ms-linear-gradient(top, #b12f2f, #911e1e);
+    background: -o-linear-gradient(top, #b12f2f, #911e1e);
+    background: linear-gradient(top, #b12f2f, #911e1e);
+    border: 1px solid #911e1e;
+    border-bottom: 1px solid #992b2b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #d57474;
+    -webkit-box-shadow: 0 1px 0 0 #d57474 inset;
+    -moz-box-shadow: 0 1px 0 0 #d57474 inset;
+    -ms-box-shadow: 0 1px 0 0 #d57474 inset;
+    -o-box-shadow: 0 1px 0 0 #d57474 inset;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 -1px 0 #671515;
+}
+
+button.submit:hover
+{
+    opacity: .85;
+    cursor:pointer;
+}
+
+button.submit:active{
+    border: 1px solid #911e1e;
+    box-shadow: 0 0 10px 5px #6b0b0b inset;
+    -webkit-box-shadow: 0 0 10px 5px #6b0b0b inset;
+    -moz-box-shadow: 0 0 10px 5px #6b0b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #6b0b0b inset;
+    -o-box-shadow: 0 0 10px 5px #6b0b0b inset;
+}
+
+.contact_form input:focus, .contact_form textarea:focus{
+    padding-right: 70px;
+}
+
+.contact_form input, .contact_form textarea
+{
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+    padding-right: 30px;
+}
+
+
+::-webkit-validation-bubble-message
+{
+    padding: 1em;
+}
+
